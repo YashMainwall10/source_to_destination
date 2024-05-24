@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>Simple Map</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script type="module" src="./index.js"></script>
+  </head>
+  <body>
+    <div>
+      <h1>Map Implmentation</h1>
+      <input type ="text" id="input1" value=""> <br/><br/>
+      <input type ="text" id="input2" value=""> <br/><br/>
+      
+    </div>
+    <button id="btn" type="button" >Click Me!</button>
+    <div id="map"></div>
+
+    <!-- prettier-ignore -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfZK2cawU8atROFlbffslnR8Eb0ZRRtLA&callback=initMap&v=weekly"
+      defer
+    ></script>
+    <script type="text/javascript" async src="http://maps.googleapis.com/maps/api/js?libraries=geometry"></script>
+  </body>
+</html>
